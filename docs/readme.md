@@ -40,7 +40,7 @@ Arquivo de infraestrutura:
 ├── scripts/
 │   ├── generate_reserve_confirm.php
 │   └── validate_reserve_confirm.php
-└── src/Dto/
+└── src/DTOs/
     ├── AddressDto.php
     ├── AllotmentDto.php
     ├── BusinessProposalDto.php
@@ -123,7 +123,7 @@ Codigos de saida:
 - `2`: encontrou divergencias criticas
 - `1`: erro de execucao (arquivo ausente, JSON invalido etc.)
 
-## DTOs (`src/Dto`)
+## DTOs (`src/DTOs`)
 
 ### DTO agregador
 

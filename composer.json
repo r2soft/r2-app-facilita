@@ -1,0 +1,44 @@
+{
+  "name": "r2soft/app-facilita",
+  "description": "Cliente e utilitarios para integracao com AppFacilita, com suporte a PHP puro e Laravel.",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.4",
+    "psr/http-message": "^1.0 || ^2.0",
+    "psr/log": "^1.1 || ^2.0 || ^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "R2Soft\\AppFacilita\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "R2Soft\\AppFacilita\\Tests\\": "tests/"
+    }
+  },
+  "suggest": {
+    "illuminate/support": "Para integracao com Laravel (ServiceProvider e Facade)."
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "R2Soft\\AppFacilita\\Laravel\\Providers\\AppFacilitaServiceProvider"
+      ],
+      "aliases": {
+        "AppFacilita": "R2Soft\\AppFacilita\\Laravel\\Facades\\AppFacilita"
+      }
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

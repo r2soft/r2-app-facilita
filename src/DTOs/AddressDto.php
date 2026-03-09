@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Dto;
+namespace R2Soft\AppFacilita\DTOs;
 
 class AddressDto
 {
