@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace R2\AppFacilita\Laravel\Providers;
+namespace R2Soft\AppFacilita\Laravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use R2\AppFacilita\Clients\AppFacilitaClient;
-use R2\AppFacilita\Core\AppFacilitaConfig;
+use R2Soft\AppFacilita\Clients\AppFacilitaClient;
+use R2Soft\AppFacilita\Core\AppFacilitaConfig;
 
 class AppFacilitaServiceProvider extends ServiceProvider
 {

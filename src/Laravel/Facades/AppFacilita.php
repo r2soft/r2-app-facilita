@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace R2\AppFacilita\Laravel\Facades;
+namespace R2Soft\AppFacilita\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
