@@ -1,1 +1,4 @@
 .idea/
+
+# payloads reais da API (dados pessoais): nunca versionar
+/files/

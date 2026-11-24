@@ -2,7 +2,7 @@
   "name": "r2soft/app-facilita",
   "description": "Cliente e utilitarios para integracao com AppFacilita, com suporte a PHP puro e Laravel.",
   "type": "library",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": ">=8.0",
     "ext-json": "*",
